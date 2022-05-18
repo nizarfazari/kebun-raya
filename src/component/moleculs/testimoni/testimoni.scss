@@ -1,0 +1,26 @@
+.testimoni {
+  .wrapper {
+    background-color: #c4daad;
+    min-height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-size: 40px;
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+    h5 {
+      margin-bottom: 40px;
+    }
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+}

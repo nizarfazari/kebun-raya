@@ -1,7 +1,7 @@
-import Search from "./search";
 import Button from "./button";
 import Navlinks from "./nav-links";
 import BannerColumn from "./bannerColumn";
 import ProdukColumn from "./produkColumn";
+import Card from "./card";
 
-export { Search, Button, Navlinks, BannerColumn, ProdukColumn };
+export { Button, Navlinks, BannerColumn, ProdukColumn, Card };

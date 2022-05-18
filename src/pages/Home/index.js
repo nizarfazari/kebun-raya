@@ -1,5 +1,5 @@
 import React from "react";
-import { Banner, OwlCarousel, Produk } from "../../component/moleculs";
+import { Banner, CtaBanner, Footer, OwlCarousel, Produk, Testimoni } from "../../component/moleculs";
 import { Header } from "../../component/organism";
 import "./home.scss";
 
@@ -10,6 +10,9 @@ const index = () => {
       <Banner />
       <OwlCarousel />
       <Produk />
+      <Testimoni />
+      <CtaBanner />
+      <Footer />
     </div>
   );
 };

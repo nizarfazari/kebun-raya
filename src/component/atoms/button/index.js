@@ -5,7 +5,7 @@ import "./button.scss";
 const Button = ({ title, ...rest }) => {
   return (
     <button className="button" {...rest}>
-      Register
+      {title}
     </button>
   );
 };
