@@ -1,0 +1,27 @@
+.category {
+  .header-category {
+    font-size: 32px;
+    font-weight: 500;
+    margin: 80px;
+  }
+  .owl-carousel {
+    .owl-nav {
+      .owl-prev {
+        position: absolute;
+        top: 35%;
+        left: 10px;
+      }
+      .owl-next {
+        position: absolute;
+        top: 35%;
+        right: 10px;
+      }
+    }
+    .item-caption {
+      .category-produk {
+        font-size: 32px;
+        font-weight: 400;
+      }
+    }
+  }
+}

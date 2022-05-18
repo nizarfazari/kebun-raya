@@ -1,0 +1,53 @@
+.hero-deskripsi {
+  .kolom-1 {
+    .deskripsi {
+      .header-1 {
+        font-size: 40px;
+        font-weight: 500;
+        font-family: "Roboto", sans-serif;
+      }
+      .small-text {
+        padding-top: 5px;
+        font-size: 16px;
+        font-weight: 300;
+        color: #8b8f89;
+        font-family: "Roboto", sans-serif;
+      }
+      .button {
+        width: 170px;
+        height: 50px;
+        background-color: #53c351;
+        color: #fff;
+        border-radius: 10px;
+        font-size: 24px;
+        font-family: "Roboto", sans-serif;
+      }
+    }
+  }
+  .kolom-2 {
+    .tilt {
+      background: rgba(0, 0, 0, 0.2) !important;
+      border-radius: 15px !important;
+      height: 400px;
+      width: 620px !important;
+      position: relative;
+      transform-style: preserve-3d !important;
+      .tanaman-img {
+        object-fit: cover;
+        position: absolute;
+        top: 50%;
+        left: 43%;
+        transform: translate3d(-50%, -50%, 100px);
+        transform: translate(-50%, -50%);
+        max-width: 800px;
+        transition: 0.5s;
+      }
+    }
+    .tilt:hover {
+      .tanaman-img {
+        transform: translate(-50%, -52%) scale(1.1) !important;
+        transform: translate3d(-50%, -52%, 100px) !important;
+      }
+    }
+  }
+}
